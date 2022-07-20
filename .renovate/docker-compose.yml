@@ -8,3 +8,4 @@ services:
       RENOVATE_CONFIG_FILE: /config.js
       GITHUB_TOKEN: ${GITHUB_TOKEN}
       LOG_LEVEL: debug
+      GOPROXY: https://proxy.golang.org
