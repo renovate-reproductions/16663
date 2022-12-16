@@ -1,7 +1,7 @@
 version: '3.5'
 services:
   renovate:
-    image: renovate/renovate:32.117.4
+    image: renovate/renovate:34.58.1
     volumes:
       - ./config.js:/config.js
     environment:
